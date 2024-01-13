@@ -1,3 +1,10 @@
+/*General CSS*/
+hr {
+    width: 4%;
+    border-width: 1px;
+}
+
+/*Wallpaper CSS*/
 #wallpaper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -22,10 +29,19 @@
 
 .item-a h3 {
     font-family: 'Open Sans', sans-serif;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
     color: whitesmoke;
 }
 
-.item-b h1, h3 {
+.item-b h1, .item-b h3 {
+    text-align: center;
+    font-family: 'Salsa', cursive;
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+.item-b h3 {
     text-align: center;
     font-family: 'Salsa', cursive;
     font-size: x-large;
@@ -41,4 +57,41 @@
     font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
 }
+
+/*Introduction CSS*/
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 0px;
+}
+
+#intro img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#intro h3 {
+    text-align: center;
+    font-family: 'Salsa', cursive;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: black;
+}
+
+#intro h5 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: black;
+}
+
+#intro p {
+    text-align: center;
+}
+
 
